@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+const image = require('./img/Captura de Pantalla 2022-07-30 a la(s) 10.36.03.png');
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <img src={image} alt="Logo empresa" />
+        <div class="input-container">
+          <input type="email" id="email" required />
+          <label for="email">Correo electronico</label>
+        </div>
+        <div class="input-container">
+          <input type="password" id="password" required />
+          <label for="password">Contraseña</label>
+        </div>
+        <button>Ingresar</button>
+      </form>
+      <div className='link'>
+        <a href="www.google.com">Olvide mi contraseña</a>
+      </div>
     </div>
   );
 }
