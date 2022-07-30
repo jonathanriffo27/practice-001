@@ -1,5 +1,5 @@
 import './App.css';
-const image = require('./img/Captura de Pantalla 2022-07-30 a la(s) 10.36.03.png');
+const image = require('./img/Captura de Pantalla 2022-07-30 a la(s) 13.01.56.png');
 
 function App() {
   return (

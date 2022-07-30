@@ -58,6 +58,8 @@ button:active {
 }
 a {
   text-decoration: none;
+  color: #0500FF
+  ;
 }
 a:hover {
   text-decoration: underline;
